@@ -4,7 +4,9 @@
   "description": "Cisco Spark Bots built with the Botkit framework",
   "main": "helloworld.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env SPARK_TOKEN=MGY3MGQ3ODItOTZmNi00ZDcyLWE5NjUtNWU0YThhZTc3NGJjMzIxNDkzNmYtZTYw PUBLIC_URL=https://cbtest777.herokuapp.com SECRET=empty node helloworld.js" 
+
   },
   "keywords": [
     "ciscospark",
